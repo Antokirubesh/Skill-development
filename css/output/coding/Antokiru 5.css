@@ -1,0 +1,31 @@
+div {
+    background-color: cyan;
+    color: brown;
+    padding: 25px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: purple;
+    color: green;
+    margin: 50px;
+}
+
+input:focus {
+    background-color: chartreuse;
+    color: brown;
+}
+
+h3:active {
+    color: greenyellow;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
