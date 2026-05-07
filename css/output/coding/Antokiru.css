@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Recreating the specific styles shown in the browser */
+        .header-red {
+            background-color: red;
+            margin: 0;
+            padding: 2px;
+        }
+
+        .descendant-green {
+            background-color: #ADFF2F; /* GreenYellow color */
+            margin-top: 10px;
+            padding: 2px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-red">Combinator Selector</div>
+
+    <p>We seen about the types od combinators</p>
+
+    <div class="descendant-green">This topic is descendant Combinator</div>
+
+    <h1>combination</h1>
+
+    <p>Need to understand properly</p>
+    <p>Practice Clearly</p>
+
+    <h1>selectors</h1>
+
+</body>
+</html>
